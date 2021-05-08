@@ -54,11 +54,11 @@
             "PortMappings":[
                 {  
                     "ContainerPort": 8888,
-                    "HostPort": 80
+                    "HostPort": 8888
                 }
             ],
             "links": [
-                "mysql-server"
+                "mysql-server:3306"
             ],
             "memory": 128,
             "essential": false
