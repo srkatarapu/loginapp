@@ -39,12 +39,22 @@
                     "value": "password"
                 },
                 {
+                    "name": "SERVERPORT",
+                    "value": "8888"
+                },
+                {
                     "name": "WAIT_HOSTS",
                     "value": "mysql-server:3306"
                 },
                 {
                     "name": "WAIT_HOSTS_TIMEOUT",
                     "value": "90"
+                }
+            ],
+            "PortMappings":[
+                {  
+                    "ContainerPort": 8888,
+                    "HostPort": 80
                 }
             ],
             "links": [
