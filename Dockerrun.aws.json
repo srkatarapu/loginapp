@@ -58,7 +58,7 @@
                 }
             ],
             "links": [
-                "mysql-server:3306"
+                "mysql-server"
             ],
             "memory": 128,
             "essential": false
