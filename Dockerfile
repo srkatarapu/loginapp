@@ -12,4 +12,4 @@ COPY ./ ./
 RUN chmod +x ./wait
 
 #start-up command
-CMD /wait && npm start
+CMD ./wait && npm start
