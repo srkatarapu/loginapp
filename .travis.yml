@@ -16,10 +16,10 @@ after_success:
 
 deploy:
     provider: elasticbeanstalk
-    region: ap-south-1
+    region: us-west-2
     app: docker-loginapp
-    env: DockerLoginapp-env
-    bucket_name: elasticbeanstalk-ap-south-1-679022722124
+    env: Dockerloginapp-env
+    bucket_name: elasticbeanstalk-us-west-2-949047184750
     bucket_path: docker-loginapp
     on:
         branch: master
