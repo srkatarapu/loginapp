@@ -38,7 +38,7 @@
                     "name": "MSPASSWORD",
                     "value": "password"
                 },
-                {
+		{
                     "name": "SERVERPORT",
                     "value": "8888"
                 },
@@ -48,10 +48,10 @@
                 },
                 {
                     "name": "WAIT_HOSTS_TIMEOUT",
-                    "value": "200"
+                    "value": "90"
                 }
             ],
-	    "PortMappings": [
+	    "PortMappings":[
                 {  
                     "ContainerPort": 8888,
                     "HostPort": 80
@@ -59,7 +59,6 @@
             ],
             "links": [
                 "mysql-server"
-		"logindb"
             ],
             "memory": 128,
             "essential": false
