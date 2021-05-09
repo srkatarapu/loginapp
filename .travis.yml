@@ -18,7 +18,7 @@ deploy:
     provider: elasticbeanstalk
     region: us-west-2
     app: docker-loginapp
-    env: Dockerloginapp-env-1
+    env: Dockerloginapp-env-2
     bucket_name: elasticbeanstalk-us-west-2-533316587000
     bucket_path: docker-loginapp
     on:
