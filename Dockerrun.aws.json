@@ -15,12 +15,6 @@
                     "value": "logindb"
                 }
             ],
-	    "Ports": [
-	        {
-                 "ContainerPort": 3306,
-                 "HostPort": 3306
-                }
-	    ],
             "memory": 500,
             "essential": true
         },
