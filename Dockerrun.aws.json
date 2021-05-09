@@ -46,7 +46,7 @@
                 },
                 {
                     "name": "SERVERPORT",
-                    "value": "80"
+                    "value": "8888"
                 },
                 {
                     "name": "WAIT_HOSTS",
@@ -58,12 +58,11 @@
                 }
 			"PortMappings":[
                 {  
-                    "ContainerPort": 80,
+                    "ContainerPort": 8888,
                     "HostPort": 80
                 }
             ],
             ],
-
             "links": [
                 "mysql-server"
 				"logindb"
