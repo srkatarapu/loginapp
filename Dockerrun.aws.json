@@ -15,12 +15,12 @@
                     "value": "logindb"
                 }
             ],
-			"Ports": [
-			    {
+	    "Ports": [
+	        {
                  "ContainerPort": 3306,
                  "HostPort": 3306
                 }
-			]
+	    ],
             "memory": 500,
             "essential": true
         },
@@ -56,7 +56,7 @@
                     "name": "WAIT_HOSTS_TIMEOUT",
                     "value": "200"
                 }
-			"PortMappings":[
+	    "PortMappings":[
                 {  
                     "ContainerPort": 8888,
                     "HostPort": 80
@@ -65,7 +65,7 @@
             ],
             "links": [
                 "mysql-server"
-				"logindb"
+		"logindb"
             ],
             "memory": 128,
             "essential": false
