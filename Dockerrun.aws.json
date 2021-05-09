@@ -56,12 +56,12 @@
                     "name": "WAIT_HOSTS_TIMEOUT",
                     "value": "200"
                 }
+            ],
 	    "PortMappings": [
                 {  
                     "ContainerPort": 8888,
                     "HostPort": 80
                 }
-            ],
             ],
             "links": [
                 "mysql-server"
