@@ -6,6 +6,9 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: password 
             MYSQL_DATABASE: logindb
+        expose:
+            #Opens port 3306 on the container
+            - "3306"
 
     loginapp:
         build:
@@ -20,6 +23,7 @@ services:
             WAIT_HOSTS: mysql-server:3306
             WAIT_HOSTS_TIMEOUT: 90
         ports:
-            - "8888:8888"
+            - "80:8888"
         depends_on: 
             - mysql-server
+            -logindb
