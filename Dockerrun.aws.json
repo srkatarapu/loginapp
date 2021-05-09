@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "SERVERPORT",
-                    "value": "8888"
+                    "value": "80"
                 },
                 {
                     "name": "WAIT_HOSTS",
@@ -48,13 +48,13 @@
                 },
                 {
                     "name": "WAIT_HOSTS_TIMEOUT",
-                    "value": "200"
+                    "value": "90"
                 }
             ],
             "PortMappings":[
                 {  
                     "ContainerPort": 8888,
-                    "HostPort": 8888
+                    "HostPort": 80
                 }
             ],
             "links": [
