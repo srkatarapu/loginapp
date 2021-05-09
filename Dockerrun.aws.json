@@ -50,11 +50,6 @@
                     "name": "WAIT_HOSTS_TIMEOUT",
                     "value": "90"
                 }
-                {
-                    "ContainerPort" : 80,
-                    "HostPort" : 80,
-                    "Protocol" : TCP
-                }
             ],
             "links": [
                 "mysql-server"
