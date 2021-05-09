@@ -50,11 +50,10 @@
                     "name": "WAIT_HOSTS_TIMEOUT",
                     "value": "90"
                 }
-            ],
-            "PortMappings":[
-                {  
-                    "ContainerPort": 8888,
-                    "HostPort": 80
+                {
+                    "ContainerPort" : 80,
+                    "HostPort" : 80,
+                    "Protocol" : TCP
                 }
             ],
             "links": [
